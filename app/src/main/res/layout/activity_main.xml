@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="6dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入您要的内容" />
+
+    <ImageButton
+        android:id="@+id/ib_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/et_search"
+        android:src="@drawable/sales1"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/ib_pic"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/bt_life"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="生活家用"
+            android:background="@drawable/setbar_bt" />
+
+        <Button
+            android:id="@+id/bt_shop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt_life"
+            android:layout_weight="1"
+            android:text="商用标签"
+            android:background="@drawable/setbar_bt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/linear1"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/bt_office"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="企业办公"
+            android:background="@drawable/setbar_bt"/>
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt_office"
+            android:layout_weight="1"
+            android:text="趣玩新奇"
+            android:background="@drawable/setbar_bt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/linear2"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/bt_mode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="扫码建模"
+            android:background="@drawable/setbar_bt" />
+
+        <Button
+            android:id="@+id/bt_create"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="新建标签"
+            android:background="@drawable/setbar_bt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <include layout="@layout/foot" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_below="@+id/linear3"/>
+
+</RelativeLayout>

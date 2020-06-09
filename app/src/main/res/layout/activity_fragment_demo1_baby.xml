@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sofa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:text="孩子保健品药品标签"
+                android:textSize="8sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:text="奶粉开封日期/配比"
+                android:textSize="8sp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="9sp"
+                android:text="食材日期保质期" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:text="开学季姓名标签"
+                android:textSize="10sp"/>
+
+            <Button
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:text="宝宝食品标签"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

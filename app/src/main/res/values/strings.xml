@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="printHistory">打印历史</string>
+    <string name="saveHistory">保存历史</string>
+</resources>

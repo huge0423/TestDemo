@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Bt_office">
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear6">
+
+        <LinearLayout
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_office_book"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="办公/书籍"
+                android:background="@drawable/white_bg"/>
+
+            <Button
+                android:id="@+id/bt_office_assets"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="固定资产"
+                android:background="@drawable/white_bg"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/right_fragment_office"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

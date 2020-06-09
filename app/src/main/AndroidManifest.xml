@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ninestar.testdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_sort"></activity>
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_remoteControl" />
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_open" />
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_electrical" />
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_wine" />
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_storageBox" />
+        <activity android:name=".Fragment.fragmentDemo4.fragmentDemo4_fun" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_store" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_research" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_name" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_medical" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_Jewellery" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_fresh" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_electricity" />
+        <activity android:name=".Fragment.fragmentDemo3.fragmentDemo3_clothes" />
+        <activity android:name=".Fragment.fragmentDemo2.fragmentDemo2_assets" />
+        <activity android:name=".Fragment.fragmentDemo2.fragmentDemo2_book" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_Rubbish" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_medicine" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_baby" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_cosmetic" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_study" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_bathroom" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_room" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_kitchen" />
+        <activity android:name=".Register" />
+        <activity android:name=".PrintCount" />
+        <activity android:name=".Create_Type_Full" />
+        <activity android:name=".Person" />
+        <activity android:name=".History" />
+        <activity android:name=".Bt_mode" />
+        <activity android:name=".Bt_play" />
+        <activity android:name=".Bt_office" />
+        <activity android:name=".Bt_shop" />
+        <activity android:name=".Bt_life" />
+        <activity android:name=".Ib_pic" />
+        <activity android:name=".Create_label" />
+        <activity android:name=".Fragment.fragmentDemo1.fragmentDemo1_home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

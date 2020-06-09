@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="6dp"
+    tools:context=".Person">
+
+    <LinearLayout
+        android:id="@+id/linear9"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sofa"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="telephone"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear9"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择打印机"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/bt_connection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择设备" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear10">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="连接模式"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="我的账号"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="我的文件"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="设置中心"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/linear11">
+
+        <Button
+            android:layout_width="93.5dp"
+            android:layout_height="wrap_content"
+            android:text="帮助中心"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="93.5dp"
+            android:layout_height="wrap_content"
+            android:text="联系我们"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/foot"/>
+    </RelativeLayout>
+
+</RelativeLayout>

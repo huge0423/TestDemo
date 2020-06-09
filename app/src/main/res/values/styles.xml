@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!--    <style name="MyCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/switch1</item>
+&lt;!&ndash;        <item name="android:button">@drawable/switch2</item>&ndash;&gt;
+        <item name="android:layout_weight">1</item>
+    </style>-->
+
+<!--    <style name="OpenCheckBox" >
+        <item name="android:layout_weight">6</item>
+    </style>-->
+</resources>

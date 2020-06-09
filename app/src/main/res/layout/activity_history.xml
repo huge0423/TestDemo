@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <include
+        android:id="@+id/title_hist"
+        layout="@layout/title" />
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_hist"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="@string/printHistory" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:text="@string/saveHistory" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--添加一个碎片，获取数据库中的信息用ListView显示出来-->
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp">
+
+        <include
+            layout="@layout/fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <include
+                layout="@layout/foot"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="6dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

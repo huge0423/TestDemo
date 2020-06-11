@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页生活办公-->家庭-客厅-->电器标签
+ * 2020/6/11
+ */
 public class Life_home_electrical extends AppCompatActivity {
 
     @Override

@@ -1,7 +1,5 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +7,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * 首页
+ * 2020/6/11
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText et_search;

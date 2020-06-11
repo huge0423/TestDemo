@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页生活办公-->家庭-客厅-->酒柜
+ * 2020/6/11
+ */
 public class Life_home_wine extends AppCompatActivity {
 
     @Override

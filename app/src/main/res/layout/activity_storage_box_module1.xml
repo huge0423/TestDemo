@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context=".Fragment.fragmentDemo1.fragDemo1_Button.Module.storage_box_module1">
+
+    <LinearLayout
+        android:id="@+id/linear_storage_box_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_storage_box_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_storage_box_title"
+        android:background="@drawable/setbar_bt"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_demo1_pic"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/sofa"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@+id/linear_storage_box_1"
+        android:orientation="vertical"
+        android:background="@drawable/setbar_bt"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="标签名称 展示柜-45*15-YP"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="标签宽度 45mm"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="标签高度 15mm"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="纸张类型 黑标纸"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="旋转角度 0°"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="线缆标签 否"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="尾巴方向 0"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="尾巴长度 0mm"
+            android:gravity="center|left"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <include layout="@layout/activity_edit_foot" />
+    </LinearLayout>
+
+</RelativeLayout>

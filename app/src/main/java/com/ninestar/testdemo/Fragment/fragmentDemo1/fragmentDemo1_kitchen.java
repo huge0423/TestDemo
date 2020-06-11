@@ -10,6 +10,10 @@ import androidx.fragment.app.Fragment;
 
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页生活办公-->厨房标签类
+ * 2020/6/11
+ */
 public class fragmentDemo1_kitchen extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

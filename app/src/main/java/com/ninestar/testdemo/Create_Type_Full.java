@@ -1,8 +1,5 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +7,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * 编辑标签内容类
+ * 2020/6/11
+ */
 public class Create_Type_Full extends AppCompatActivity implements View.OnClickListener {
 
     private Button nav_button;
@@ -39,10 +41,11 @@ public class Create_Type_Full extends AppCompatActivity implements View.OnClickL
             builder.setNegativeButton("不保存", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Intent intent = new Intent();
-                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    intent.setClass(Create_Type_Full.this, MainActivity.class);
-                    startActivity(intent);
+//                    Intent intent = new Intent();
+//                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                    intent.setClass(Create_Type_Full.this, MainActivity.class);
+//                    startActivity(intent);
+                    finish();
                 }
             });
             builder.setPositiveButton("保存", new DialogInterface.OnClickListener() {

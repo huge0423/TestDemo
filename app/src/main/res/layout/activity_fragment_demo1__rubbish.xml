@@ -24,6 +24,7 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/bt_life_rubbish_recyclable"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
@@ -31,12 +32,14 @@
                 android:textSize="11dp" />
 
             <Button
+                android:id="@+id/bt_life_rubbish_harmful"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:text="有害垃圾" />
 
             <Button
+                android:id="@+id/bt_life_rubbish_dried"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
@@ -48,6 +51,7 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/bt_life_rubbish_wet"
                 android:layout_width="98dp"
                 android:layout_height="150dp"
                 android:text="湿垃圾" />

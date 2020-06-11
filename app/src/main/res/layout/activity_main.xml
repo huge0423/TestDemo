@@ -37,6 +37,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="生活家用"
+            android:layout_marginRight="10dp"
             android:background="@drawable/setbar_bt" />
 
         <Button
@@ -62,6 +63,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="企业办公"
+            android:layout_marginRight="10dp"
             android:background="@drawable/setbar_bt"/>
 
         <Button
@@ -87,6 +89,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="扫码建模"
+            android:layout_marginRight="10dp"
             android:background="@drawable/setbar_bt" />
 
         <Button

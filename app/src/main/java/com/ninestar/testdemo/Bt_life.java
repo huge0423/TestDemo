@@ -1,27 +1,31 @@
 package com.ninestar.testdemo;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_home;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_Rubbish;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_baby;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_bathroom;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_cosmetic;
+import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_home;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_kitchen;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_medicine;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_room;
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragmentDemo1_study;
 
+/**
+ * 首页生活家用类
+ * 2020/6/11
+ */
 public class Bt_life extends AppCompatActivity implements View.OnClickListener{
 
     private TextView title_text;

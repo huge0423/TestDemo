@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_sort"></activity>
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Module.storage_box_module1"></activity>
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_Rubbish_recyclable" />
+        <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_sort" />
         <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_remoteControl" />
         <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_open" />
         <activity android:name=".Fragment.fragmentDemo1.fragDemo1_Button.Life_home_electrical" />

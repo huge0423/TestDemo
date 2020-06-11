@@ -1,21 +1,30 @@
 package com.ninestar.testdemo;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import com.ninestar.testdemo.Fragment.fragmentDemo3.*/*fragmentDemo3_clothes*/;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_Jewellery;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_clothes;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_electricity;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_fresh;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_medical;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_name;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_research;
+import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_store;
 //import com.ninestar.testdemo.Fragment.fragmentDemo3.fragmentDemo3_electricity;
 
+/**
+ * 首页商用标签类
+ * 2020/6/11
+ */
 public class Bt_shop extends AppCompatActivity implements View.OnClickListener {
     private Button nav_button;
     private TextView title_text;

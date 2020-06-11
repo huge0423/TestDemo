@@ -18,6 +18,10 @@ import com.ninestar.testdemo.Fragment.fragmentDemo1.fragDemo1_Button.Life_home_s
 import com.ninestar.testdemo.Fragment.fragmentDemo1.fragDemo1_Button.Life_home_wine;
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页生活办公-->家庭-客厅
+ * 2020/6/11
+ */
 public class fragmentDemo1_home extends Fragment implements View.OnClickListener {
 
     private Button bt_life_home_storageBox;
@@ -36,6 +40,10 @@ public class fragmentDemo1_home extends Fragment implements View.OnClickListener
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        init();
+    }
+
+    public void init() {
         bt_life_home_storageBox = getActivity().findViewById(R.id.bt_life_home_storageBox);
         bt_life_home_storageBox.setOnClickListener(this);
         bt_life_home_wine = getActivity().findViewById(R.id.bt_life_home_wine);
@@ -54,32 +62,26 @@ public class fragmentDemo1_home extends Fragment implements View.OnClickListener
     public void onClick(View v) {
         if (v.getId() == R.id.bt_life_home_storageBox) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_storageBox.class);
             startActivity(intent);
         } else if (v.getId() == R.id.bt_life_home_wine) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_wine.class);
             startActivity(intent);
         } else if (v.getId() == R.id.bt_life_home_electrical) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_electrical.class);
             startActivity(intent);
         } else if (v.getId() == R.id.bt_life_home_open) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_open.class);
             startActivity(intent);
         } else if (v.getId() == R.id.bt_life_home_remoteControl) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_remoteControl.class);
             startActivity(intent);
         } else if (v.getId() == R.id.bt_life_home_sort) {
             Intent intent = new Intent();
-//            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setClass(getActivity(), Life_home_sort.class);
             startActivity(intent);
         }

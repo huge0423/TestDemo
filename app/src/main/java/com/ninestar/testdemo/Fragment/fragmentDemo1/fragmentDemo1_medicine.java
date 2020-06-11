@@ -1,15 +1,18 @@
 package com.ninestar.testdemo.Fragment.fragmentDemo1;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页生活办公-->药品
+ * 2020/6/11
+ */
 public class fragmentDemo1_medicine extends Fragment {
 
     @Override

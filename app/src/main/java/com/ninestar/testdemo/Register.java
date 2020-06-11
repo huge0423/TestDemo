@@ -1,13 +1,16 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * 用户注册类
+ */
 public class Register extends AppCompatActivity implements View.OnClickListener {
 
     private Button bt_res_new;  //注册新账号

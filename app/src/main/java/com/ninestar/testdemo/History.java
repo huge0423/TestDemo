@@ -1,7 +1,5 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +8,12 @@ import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * 下标历史标签类
+ * 2020/6/11
+ */
 public class History extends AppCompatActivity implements View.OnClickListener {
 
     private TextView title_his;

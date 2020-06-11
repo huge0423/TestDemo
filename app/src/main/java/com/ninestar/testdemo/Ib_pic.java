@@ -1,11 +1,12 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 /**
- * 图形按钮
+ * 首页轮播图片类
+ * 2020/6/11
  */
 public class Ib_pic extends AppCompatActivity {
 

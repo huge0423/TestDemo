@@ -1,20 +1,22 @@
 package com.ninestar.testdemo;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-
 import com.ninestar.testdemo.Fragment.fragmentDemo4.fragmentDemo4_fun;
 
+/**
+ * 首页趣玩新奇类
+ * 2020/6/11
+ */
 public class Bt_play extends AppCompatActivity implements View.OnClickListener {
     private Button nav_button;
     private TextView title_text;

@@ -1,19 +1,23 @@
 package com.ninestar.testdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import com.ninestar.testdemo.Fragment.fragmentDemo2.fragmentDemo2_assets;
 import com.ninestar.testdemo.Fragment.fragmentDemo2.fragmentDemo2_book;
 
+/**
+ * 首页企业办公类
+ * 2020/6/11
+ */
 public class Bt_office extends AppCompatActivity implements View.OnClickListener {
     private Button nav_button;
     private TextView title_text;

@@ -1,15 +1,18 @@
 package com.ninestar.testdemo.Fragment.fragmentDemo2;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页企业办公-->办公/书籍
+ * 2020/6/11
+ */
 public class fragmentDemo2_book extends Fragment {
 
     @Override

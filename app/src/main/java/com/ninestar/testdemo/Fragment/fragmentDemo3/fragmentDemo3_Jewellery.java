@@ -1,15 +1,18 @@
 package com.ninestar.testdemo.Fragment.fragmentDemo3;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.ninestar.testdemo.R;
 
+/**
+ * 首页商用标签-->珠宝饰品
+ * 2020/6/11
+ */
 public class fragmentDemo3_Jewellery extends Fragment {
 
     @Override
